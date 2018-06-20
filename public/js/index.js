@@ -17,3 +17,10 @@ socket.on('newMessage', function(message){
     console.log("New Message: ",message)
 })
 
+socket.on('newUser',function(data){
+    console.log(data)
+})
+
+socket.on('join',function(data){
+    console.log(data)
+})
